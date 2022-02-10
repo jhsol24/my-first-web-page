@@ -1,0 +1,51 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+* {
+  font-family: 'Spoqa Han Sans';
+}
+a {
+  color:black;
+  text-decoration: none;
+}
+.right {
+  width: 540px;
+  margin: 0 auto;
+}
+.right h1 {
+  font-size: 45px;
+  font-weight: bolder;
+  text-align: left;
+  /* padding:20px; */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin:0;
+}
+#grid {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+#grid ol {
+  /* border-right: 1px solid gray; */
+  width: 135px;
+  margin: 0;
+  padding: 20px;
+  padding-left: 33px;
+  text-align: center;
+  list-style: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+#grid p {
+  /* padding-left: 20px;
+  padding-right: 20px; */
+  text-align: justify;
+}
+@media(max-width: 800px) {
+  #grid {
+    display: block;
+  }
+  #grid ol {
+    border-right: none;
+    text-align: center;
+    margin: auto;
+  }
+}
